@@ -19,7 +19,7 @@ export const Hero = () => {
               Giancarlo Brandalise
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8">
-              Information Systems Student & Data Analytics Specialist
+              Information Systems Student & Data Analytics Intern
             </p>
             
             <div className="flex flex-wrap justify-center gap-4 text-gray-600 mb-8">
