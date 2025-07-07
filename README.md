@@ -3,6 +3,9 @@
 
 This project is my personal portfolio, built to professionally showcase my background, technical skills, certifications, and the projects I've developed throughout my academic and professional journey in tech.
 
+🔗 **Live Website**: [giancarlo-folio-showcase.lovable.app](https://giancarlo-folio-showcase.lovable.app)
+
+
 ![Opera Instantâneo_2025-07-07_095329_lovable dev](https://github.com/user-attachments/assets/ee49ad32-fdd4-44b6-b0ee-d12f1db8aa0e)
 
 ---
