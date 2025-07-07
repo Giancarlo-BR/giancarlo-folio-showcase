@@ -8,8 +8,12 @@ export const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center animate-fade-in">
           <div className="mb-8">
-            <div className="w-48 h-48 mx-auto mb-8 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 flex items-center justify-center text-6xl font-bold text-white shadow-2xl">
-              GB
+            <div className="w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden shadow-2xl">
+              <img 
+                src="/lovable-uploads/74c6d353-1d50-47c1-987d-5553a51626a6.png" 
+                alt="Giancarlo Brandalise"
+                className="w-full h-full object-cover"
+              />
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
               Giancarlo Brandalise
