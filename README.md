@@ -1,73 +1,60 @@
-# Welcome to your Lovable project
+💼 Giancarlo Brandalise – Developer Portfolio
+This project is my personal portfolio, built to professionally showcase my background, technical skills, certifications, and the projects I've developed throughout my academic and professional journey in tech.
 
-## Project info
+![Uploading image.png…]()
 
-**URL**: https://lovable.dev/projects/7ffec5b3-3251-4be2-b04d-a82a52c5cb72
 
-## How can I edit this code?
+✨ About the Project
+This is a responsive, interactive portfolio inspired by the TechFolios Template. It highlights:
 
-There are several ways of editing your application.
+My professional experience as a Data Analytics and R&D Consultant intern
 
-**Use Lovable**
+My GitHub projects, focused on data science, web development, and automation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7ffec5b3-3251-4be2-b04d-a82a52c5cb72) and start prompting.
+My technical skills across modern languages, frameworks, and tools
 
-Changes made via Lovable will be committed automatically to this repo.
+My certifications and relevant education
 
-**Use your preferred IDE**
+🛠️ Tech Stack
+This portfolio was generated using Lovable, a low-code platform that uses AI to generate modern web apps. The stack includes:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Vite – Fast front-end build tool
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+React – JavaScript library for UI development
 
-Follow these steps:
+TypeScript – Strongly typed JavaScript
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Tailwind CSS – Utility-first responsive styling
 
-# Step 2: Navigate to the project directory.
+shadcn/ui – Accessible, prebuilt UI components
+
+🚀 How I Built It
+Created the project using Lovable and a custom AI prompt based on the TechFolios template
+
+Provided my resume and GitHub as data sources
+
+Customized the content to include my bio, experience, and key projects
+
+Published the project using Lovable’s built-in deploy feature
+
+📁 Project Structure
+You can edit the project directly in Lovable or clone it locally for full customization:
+
+bash
+Copiar
+Editar
+git clone <YOUR_REPO_URL>
 cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+npm install
 npm run dev
-```
+🌐 Custom Domain & Deployment
+Hosted on Lovable’s platform
 
-**Edit a file directly in GitHub**
+You can connect a custom domain in the project settings
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Changes can be made via Lovable, GitHub, or your own IDE
 
-**Use GitHub Codespaces**
+📞 Contact
+📧 Email: gian6155@gmail.com
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7ffec5b3-3251-4be2-b04d-a82a52c5cb72) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+💼 LinkedIn: linkedin.com/in/giancarlo-brandalise
