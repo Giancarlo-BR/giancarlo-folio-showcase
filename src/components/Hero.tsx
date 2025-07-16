@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
   return (
-    <section className="pt-20 pb-16 bg-gradient-to-br from-blue-50 to-indigo-100">
+    <section className="pt-20 pb-16 bg-gradient-to-br from-background to-muted">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center animate-fade-in">
           <div className="mb-8">
@@ -15,14 +15,14 @@ export const Hero = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
+            <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-4">
               Giancarlo Brandalise
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8">
+            <p className="text-xl md:text-2xl text-muted-foreground mb-8">
               Information Systems Student & Data Analytics Intern
             </p>
             
-            <div className="flex flex-wrap justify-center gap-4 text-gray-600 mb-8">
+            <div className="flex flex-wrap justify-center gap-4 text-muted-foreground mb-8">
               <div className="flex items-center gap-2">
                 <MapPin size={18} />
                 <span>Porto Alegre - RS - Brazil</span>

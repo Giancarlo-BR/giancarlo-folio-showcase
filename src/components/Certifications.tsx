@@ -24,10 +24,10 @@ export const Certifications = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Certifications</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4">Certifications</h2>
           <div className="w-20 h-1 bg-primary mx-auto"></div>
         </div>
 
@@ -35,14 +35,14 @@ export const Certifications = () => {
           {certifications.map((cert, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
               <CardHeader>
-                <CardTitle className="text-lg text-gray-900">{cert.title}</CardTitle>
+                <CardTitle className="text-lg text-foreground">{cert.title}</CardTitle>
                 <div className="space-y-1">
                   <p className="text-primary font-semibold">{cert.issuer}</p>
-                  <p className="text-gray-600">{cert.date}</p>
+                  <p className="text-muted-foreground">{cert.date}</p>
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-700">{cert.description}</p>
+                <p className="text-muted-foreground">{cert.description}</p>
               </CardContent>
             </Card>
           ))}

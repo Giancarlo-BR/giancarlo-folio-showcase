@@ -39,12 +39,12 @@ export const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-gray-50">
+    <section id="contact" className="py-20 bg-muted/50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4">Get In Touch</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
-          <p className="text-xl text-gray-600">
+          <p className="text-xl text-muted-foreground">
             Let's connect and discuss opportunities in data analytics and software development
           </p>
         </div>
@@ -52,23 +52,23 @@ export const Contact = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <Card className="hover:shadow-lg transition-shadow duration-300">
             <CardHeader>
-              <CardTitle className="text-xl text-gray-900">Contact Information</CardTitle>
+              <CardTitle className="text-xl text-foreground">Contact Information</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               {contactInfo.map((item, index) => (
                 <div key={index} className="flex items-center space-x-3">
                   <item.icon className="text-primary" size={20} />
                   <div>
-                    <p className="text-sm text-gray-600">{item.label}</p>
+                    <p className="text-sm text-muted-foreground">{item.label}</p>
                     {item.href !== "#" ? (
                       <a 
                         href={item.href} 
-                        className="text-gray-900 hover:text-primary transition-colors duration-200"
+                        className="text-foreground hover:text-primary transition-colors duration-200"
                       >
                         {item.value}
                       </a>
                     ) : (
-                      <span className="text-gray-900">{item.value}</span>
+                      <span className="text-foreground">{item.value}</span>
                     )}
                   </div>
                 </div>
@@ -78,7 +78,7 @@ export const Contact = () => {
 
           <Card className="hover:shadow-lg transition-shadow duration-300">
             <CardHeader>
-              <CardTitle className="text-xl text-gray-900">Connect With Me</CardTitle>
+              <CardTitle className="text-xl text-foreground">Connect With Me</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               {socialLinks.map((link, index) => (
@@ -105,7 +105,7 @@ export const Contact = () => {
         </div>
 
         <div className="text-center">
-          <p className="text-gray-600">
+          <p className="text-muted-foreground">
             © 2025 Giancarlo Brandalise. Built with React, TypeScript, and Tailwind CSS.
           </p>
         </div>

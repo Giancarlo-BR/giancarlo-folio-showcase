@@ -29,10 +29,10 @@ export const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="py-20 bg-gray-50">
+    <section id="experience" className="py-20 bg-muted/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Work Experience</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4">Work Experience</h2>
           <div className="w-20 h-1 bg-primary mx-auto"></div>
         </div>
 
@@ -40,10 +40,10 @@ export const Experience = () => {
           {experiences.map((exp, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300 animate-scale-in">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900">{exp.title}</CardTitle>
+                <CardTitle className="text-2xl text-foreground">{exp.title}</CardTitle>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center">
                   <p className="text-lg font-semibold text-primary">{exp.company}</p>
-                  <p className="text-gray-600">{exp.period}</p>
+                  <p className="text-muted-foreground">{exp.period}</p>
                 </div>
               </CardHeader>
               <CardContent>
@@ -51,7 +51,7 @@ export const Experience = () => {
                   {exp.description.map((item, i) => (
                     <li key={i} className="flex items-start">
                       <span className="text-primary mr-2">•</span>
-                      <span className="text-gray-700">{item}</span>
+                      <span className="text-muted-foreground">{item}</span>
                     </li>
                   ))}
                 </ul>
