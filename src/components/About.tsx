@@ -10,35 +10,23 @@ export const About = () => {
         
         <div className="prose prose-lg mx-auto">
           <p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
-            Hi! I'm Giancarlo Brandalise, an Information Systems student based in Porto Alegre, Brazil. 
-            I'm passionate about turning data into meaningful insights and using technology to solve real-world problems. 
-            With hands-on experience in both data analytics and software development, I bring a versatile skill set 
-            that bridges the gap between business needs and technical solutions.
+            Hi, I'm Giancarlo Brandalise, an Information Systems student from Porto Alegre with a real passion for using technology to solve meaningful problems. For me, the best work happens at the intersection of data analytics and software development—where we can uncover insights and build the tools to act on them.
           </p>
           
           <p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
-            Currently, I work as a Data Analytics Intern at White Cube, where I handle data validation, 
-            process automation, and the creation of interactive dashboards using Power BI. My daily work involves 
-            leveraging Python and PySpark, working with relational databases (SQL Server, MySQL), and contributing 
-            to data-driven decision-making.
+            Currently, as a Data Analytics Intern at White Cube, I get to dive into this every day. I spend my time validating data, automating processes with Python and PySpark, and bringing information to life with interactive Power BI dashboards. It's rewarding to see my work help the team make smarter, data-driven decisions.
           </p>
           
           <p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
-            Previously, I had the opportunity to work at Martinelli Advogados as an R&D Consultant Intern, 
-            where I focused on managing tax incentive projects related to technology. That experience deepened 
-            my understanding of APIs, frameworks, and the inner workings of IT-oriented businesses.
+            Before this, I was an R&D Consultant Intern at Martinelli Advogados. That role was a fascinating look behind the curtain of the tech industry, managing tax incentive projects and getting a deep understanding of how APIs, frameworks, and IT businesses operate.
           </p>
           
           <p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
-            I'm comfortable with technologies like Java, Python, and JavaScript, and have built projects using 
-            frameworks such as Spring Boot and React. I also have experience with the full MERN stack, 
-            cloud platforms like Microsoft Azure, and various database systems.
+            My technical toolkit is broad—I'm comfortable building with Java (Spring Boot), JavaScript (React, MERN stack), and of course, Python. Whether I'm designing a backend API, wrangling a complex dataset, or creating a user-friendly dashboard, I enjoy the entire process of building something valuable.
           </p>
           
           <p className="text-lg text-gray-700 leading-relaxed text-justify">
-            Whether it's building a backend API, cleaning and analyzing complex datasets, or designing 
-            user-friendly dashboards, I enjoy every step of the process. I'm always looking to grow, 
-            learn, and collaborate on impactful projects.
+            I'm always looking to learn, grow, and collaborate on impactful projects. Let's connect!
           </p>
         </div>
       </div>
