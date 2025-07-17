@@ -36,12 +36,12 @@ export const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-muted/30">
+    <section id="projects" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4">Featured Projects</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Featured Projects</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-xl text-gray-600">
             Explore my latest work showcasing MERN stack, Java Spring Boot, Python, and pure HTML/CSS projects
           </p>
         </div>
@@ -50,16 +50,16 @@ export const Projects = () => {
           {projects.map((project, index) => (
             <Card key={index} className="hover:shadow-xl transition-all duration-300 animate-scale-in">
               <CardHeader>
-                <CardTitle className="text-xl text-foreground">{project.title}</CardTitle>
+                <CardTitle className="text-xl text-gray-900">{project.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">{project.description}</p>
+                <p className="text-gray-700 mb-4">{project.description}</p>
                 
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.technologies.map((tech, i) => (
                     <span 
                       key={i} 
-                      className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium"
+                      className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium"
                     >
                       {tech}
                     </span>
